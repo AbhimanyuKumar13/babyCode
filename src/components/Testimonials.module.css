@@ -1,0 +1,94 @@
+.testimonialsSection {
+  text-align: center;
+  background-color: var(--medium-bg);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* Negative margins to make background full-width */
+  margin-left: -50vw;
+  left: 50%;
+  position: relative;
+  width: 100vw;
+}
+
+.contentWrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem; /* 24px */
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--dark-text);
+}
+
+.subtitle {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  color: var(--body-text);
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+/* Testimonial Card Styles */
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: left;
+}
+
+.quote {
+  color: var(--body-text);
+  font-style: italic;
+  flex-grow: 1; /* Makes sure the footer aligns */
+}
+
+.authorInfo {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.authorImage {
+  width: 3.5rem;  /* 56px */
+  height: 3.5rem; /* 56px */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.authorName {
+  font-weight: 700;
+  color: var(--dark-text);
+}
+
+.authorTitle {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Responsive Grid */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
