@@ -1,7 +1,7 @@
 import { features } from '../constants';
 import styles from './Features.module.css';
 
-// FeatureCard is defined inside Features.jsx as it's only used here.
+ 
 const FeatureCard = ({ icon: Icon, title, text }) => (
   <div className={styles.card}>
     <div className={styles.iconContainer}>

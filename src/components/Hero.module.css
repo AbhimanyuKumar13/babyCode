@@ -1,5 +1,5 @@
 .heroSection {
-  padding-top: 8rem; /* Account for navbar height */
+  padding-top: 8rem;  
   padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
 }
 
 .title {
-  font-size: 2.5rem; /* 40px */
+  font-size: 2.5rem; 
   font-weight: 800;
   line-height: 1.2;
 }
@@ -23,7 +23,7 @@
 
 .subtitle {
   margin-top: 1.5rem;
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem;  
   color: var(--body-text);
   max-width: 600px;
   margin-left: auto;
@@ -59,8 +59,7 @@
   border-radius: 1rem;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
-
-/* Large screens */
+ 
 @media (min-width: 1024px) {
   .heroSection {
     flex-direction: row;
@@ -71,7 +70,7 @@
     text-align: left;
   }
   .title {
-    font-size: 3.75rem; /* 60px */
+    font-size: 3.75rem; 
   }
   .subtitle {
     margin-left: 0;

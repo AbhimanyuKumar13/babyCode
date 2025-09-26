@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { navLinks } from '../constants';
 import { FiMenu, FiX } from 'react-icons/fi';
 import logo from '../assets/logo.webp';
-import styles from './Navbar.module.css'; // Import CSS Module
+import styles from './Navbar.module.css'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
